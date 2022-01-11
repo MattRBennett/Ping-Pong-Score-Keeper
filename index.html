@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ping Pong Score Keeper</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="shortcut icon" href="pingpong_thumbnail.jpg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <div id="underContainer">
+            <div>
+                <img id="pingpongImage" src="pingpong_small.jpg" alt="pingpong">
+            </div>
+            <div id="gameTitle">
+                <h3>Ping Pong Score Keeper</h3>
+            </div>
+            <hr>
+            <div id="scoreBoard">
+                <h1 id="player1_score">0</h1>
+                <h1> - </h1>
+                <h1 id="player2_score">0</h1>
+            </div>
+            <div id="scoreBox">
+                <p>Playing Until:</p>
+                <select name="gameScore" id="gameScore">
+                    <option value="0">-- Select A Value --</option>
+                    <option value="3">3</option>
+                    <option value="5">5</option>
+                    <option value="8">8</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <div id="info">
+                <p><strong>Use the buttons below to keep score - reset for new game</strong></p>
+            </div>
+            <div id="buttonBox">
+                <button id="player1" class="player1">Player 1+</button>
+                <button id="player2" class="player2">Player 2+</button>
+                <button id="resetAll">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

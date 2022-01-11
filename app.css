@@ -1,0 +1,158 @@
+/* Added to help not be blinded by white screen */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+} 
+
+/* Image on top of the page */
+#pingpongImage {
+    border-radius: 10px 10px 0px 0px;
+}
+
+/* Universal h1 class */
+h1 {
+    padding: 0px 10px;
+    font-weight: 600;
+}
+
+/* Universal button class */
+button {
+    width: 180px;
+    margin: 5px 5px;
+}
+
+/* Select input */
+select {
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+}
+
+/* Main container */
+#container {
+    width: min-content;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    box-shadow: 9px 8px 9px -4px rgba(0,0,0,0.34);
+    -webkit-box-shadow: 9px 8px 9px -4px rgba(0,0,0,0.34);
+    -moz-box-shadow: 9px 8px 9px -4px rgba(0,0,0,0.34);
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: #e9ecef;
+}
+
+/* Div holding h1's */
+#scoreBoard {
+    display: flex;
+    justify-content: center;
+}
+
+/* Div for game title */
+#gameTitle {
+    display: flex;
+    justify-content: center;
+}
+
+/* Div holding main scores */
+#info {
+    padding: 0px 10px;
+}
+
+#info > p{
+    display: flex;
+    justify-content: center;
+}
+
+/* Div holding the select */
+#scoreBox {
+    display: flex;
+    padding: 0px 10px;
+    justify-content: center;
+}
+
+/* Select input */
+#gameScore {
+    width: 140px;
+}
+
+/* Div for buttons  */
+#buttonBox {
+    display: flex;
+    justify-content: center;
+} 
+
+/* Main Player 1 button */
+.player1 {
+    background-color: lightgreen;
+    color: white;
+    padding: 15px 0px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.player1:hover {
+    background-color: rgb(66, 233, 66);
+    transition: 0.5s;
+}
+
+/* Main Player 2 button */
+.player2 {
+    background-color: lightskyblue;
+    color: white;
+    padding: 15px 0px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.player2:hover {
+    background-color: rgb(22, 158, 243);
+    transition: 0.5s;
+}
+
+/* Reset button */
+#resetAll {
+    background-color: rgb(255, 88, 88);
+    color: white;
+    padding: 15px 0px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Reset button on hover */
+#resetAll:hover {
+    background-color: red;
+    transition: 0.5s;
+}
+
+/* Class for player who has won */
+.winner {
+    color: rgb(39, 156, 39);
+}
+
+/* Class for player who has lost */
+.loser  {
+    color: red;
+}
+
+/* Class for disabling buttons once outcome is finalized */
+.disabled {
+    background-color: lightgrey;
+    color: white;
+    cursor: not-allowed;
+}
+
+.disabled:hover {
+    background-color: darkgray;
+    color: white;
+}
