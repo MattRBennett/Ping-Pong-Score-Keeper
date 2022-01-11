@@ -1,5 +1,7 @@
 # Ping Pong Score Keeper
 
+A score keeper to help you get your ping pong on. :)
+
 Description:
 
 I am currently doing a web development bootcamp on Udemy, this project is part of a CodeAlong that I am doing in my bootcamp. The instructions were that I was to recreate an app that will track the scores of a ping pong game. My instructor/teacher showed me what the final app would look like and how it would work.
